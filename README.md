@@ -1,5 +1,7 @@
 # dumi-monorepo
 
+A template for dumi components project with monorepo mode.
+
 ## Getting Started
 
 Install dependencies,
@@ -24,4 +26,10 @@ Build library via `father-build`,
 
 ```bash
 $ npm run build
+```
+
+Generate CHANGELOG via `conventional-changelog-cli`,
+
+```bash
+$ npm run changelog
 ```
